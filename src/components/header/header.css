@@ -1,0 +1,25 @@
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo2{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .header{
+        position: fixed;
+        width: 100%;
+    }
+    .logo2{
+        display: block;
+        width: 60%;
+    }
+    .logo1{
+        display: none;
+    }
+}
