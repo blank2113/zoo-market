@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Routes,Route } from "react-router-dom";
 import BestProducts from "../components/bestProduct/BestProducts";
 import BestSales from "../components/bestSales/BestSales";
@@ -12,8 +12,9 @@ import LoginPage from "./LoginPage";
 import './mainPage.css';
 
 function MainPage() {
+
   return (
-    <div>
+    <div className="main-page">
     <Header/>
     <TopContent/>
     <Catalog/> 
@@ -21,12 +22,12 @@ function MainPage() {
     <BestSales/>
     <Contacts/>
     <Footer/>
-      MainPage
+      {/* MainPage
       <Link to="/login">login</Link>
       {/* <Routes>
         <Route path="/login/*" element={LoginPage}/>
         <Route path="/admin" element={AdminPage}/>
-      </Routes> */}
+      </Routes> */} 
     </div>
   );
 }

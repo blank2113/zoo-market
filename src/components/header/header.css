@@ -3,19 +3,41 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    z-index: 2;
+    /* z-index: 2000; */
+    font-size: 20px;
 }
-.logo{
+.header-inner__logo{
     display: flex;
+    align-items: center;
+}
+.header-inner__logo-title{
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .logo2{
     display: none;
 }
 
+@media (max-width: 1024px){
+    .header-inner__logo img{
+        width: 65%;
+    }
+    .header-inner__logo-title{
+        display: none;
+    }
+}
+
+
 @media (max-width: 768px){
     .header{
         position: fixed;
         width: 100%;
+        z-index: 300;
+        height: 97px;
+    }
+    .header-inner{
+        
     }
     .logo2{
         display: block;
