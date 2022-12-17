@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
-     
+     padding: 70px 0;
   
   }
   .top-content-inner {
@@ -33,6 +33,7 @@
       bottom: 0;
       right: 0;
       width: 60%;
+      z-index: -100;
     }
   .button-see {
     font-weight: 700;

@@ -1,0 +1,25 @@
+.catalog{
+    background: url('../../assets/bg2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+  }
+  .catalog-inner {
+    padding: 70px 0;
+  }
+  .catalog-inner__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 55px;
+    background: #fff1ce;
+    border-radius: 66px;
+    padding: 5px 20px;
+    margin: 50px 0;
+  }
+  .row{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+  }

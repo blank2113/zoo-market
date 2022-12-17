@@ -1,0 +1,36 @@
+.animalList {
+    background: #fff1ce;
+    border-radius: 27px;
+    width: 100%;
+    padding: 0px 30px;
+    -webkit-box-shadow: 0px 5px 5px -1px rgba(75, 77, 79, 0.4);
+    -moz-box-shadow: 0px 5px 5px -1px rgba(75, 77, 79, 0.4);
+    box-shadow: 0px 5px 5px -1px rgba(75, 77, 79, 0.4);
+  }
+  .animal-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+   
+  }
+  .animal-list li{
+    transition: 0.2s ease-in-out;
+  }
+  .animal-list li:hover{
+    transform: scale(1.2,1.2);
+  }
+  .animal-list__item {
+    /* cursor: pointer; */
+    transition: 0.2s ease-in-out;
+    padding: 5px 10px;
+  }
+  
+  .animal-list__item.active {
+    background: #ffb100;
+    border-radius: 14px;
+    color: #fff;
+  
+  }
+  

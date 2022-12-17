@@ -1,0 +1,55 @@
+[{
+    "id":1,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":2,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":3,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":4,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":5,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":6,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":7,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":8,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  },{
+    "id":9,
+    "name": "Сухой корм",
+    "prevPrice":"120,000 сум",
+    "currentPrice": "49,900 сум",
+    "img": "../data/prod.png"
+  }]

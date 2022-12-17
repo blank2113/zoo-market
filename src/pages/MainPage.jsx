@@ -1,5 +1,10 @@
 import React from "react";
 import { Link, Routes,Route } from "react-router-dom";
+import BestProducts from "../components/bestProduct/BestProducts";
+import BestSales from "../components/bestSales/BestSales";
+import Catalog from "../components/catalog/Catalog";
+import Contacts from "../components/contacts/Contacts";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import TopContent from "../components/top-content/TopContent";
 import AdminPage from "./AdminPage";
@@ -10,7 +15,12 @@ function MainPage() {
   return (
     <div>
     <Header/>
-    <TopContent/> 
+    <TopContent/>
+    <Catalog/> 
+    <BestProducts/>
+    <BestSales/>
+    <Contacts/>
+    <Footer/>
       MainPage
       <Link to="/login">login</Link>
       {/* <Routes>

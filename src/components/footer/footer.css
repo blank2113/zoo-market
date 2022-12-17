@@ -1,0 +1,9 @@
+.footer-inner{
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: flex-start;
+   
+}
