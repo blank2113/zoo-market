@@ -34,16 +34,10 @@
         position: fixed;
         width: 100%;
         z-index: 300;
-        height: 97px;
+        background-color: #ffc800ed;
     }
-    .header-inner{
-        
-    }
-    .logo2{
-        display: block;
-        width: 60%;
-    }
-    .logo1{
-        display: none;
+ 
+    .header-inner__logo img{
+        width: 50%;
     }
 }

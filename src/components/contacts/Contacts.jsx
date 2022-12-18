@@ -17,15 +17,15 @@ function Contacts() {
           <div className="contacts-inner__content">
             <ul className="contacts-inner__content-list">
               <li className="contacts-inner__content-list-item">
-                <p>Адрес:</p>
+                <p className='sub-title'>Адрес:</p>
                 <p>г. Ташкент, Мирабадский р-н, улица Куйлюк, дом 11</p>
               </li>
               <li className="contacts-inner__content-list-item">
-                <p>Наш номер телефона:</p>
+                <p className='sub-title' >Наш номер телефона:</p>
                 <p>+99897 777 77 77</p>
               </li>
               <li className="contacts-inner__content-list-item">
-                <p>Мы в соц. сетях:</p>
+                <p className='sub-title'>Мы в соц. сетях:</p>
                 <div className="socials">
                   <img src={telegram} alt="telegram" />
                   <img src={insta} alt="telegram" />
