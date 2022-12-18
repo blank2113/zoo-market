@@ -17,7 +17,7 @@ function BestSales() {
     }
     useEffect(()=>{ getSalesList()})
   return (
-    <div className="best-sales">
+    <section className="best-sales">
       <div className="container">
         <h5 className="title">Успейте купить по лучшей цене!</h5>
         <Swiper
@@ -59,7 +59,7 @@ function BestSales() {
           ))}
         </Swiper>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -7,7 +7,7 @@ import './footer.css';
 
 function Footer() {
   return (
-    <div className='footer'>
+    <footer className='footer'>
         <div className='footer-inner container'>
             <p className='footer-inner__text'>© 2022 ORCUS. Все права защищены</p>
             <div className='footer-inner__image'>
@@ -19,7 +19,7 @@ function Footer() {
                 
             </div>
         </div>
-    </div>
+    </footer>
   )
 }
 

@@ -5,7 +5,7 @@ import Menu from "./menu/Menu";
 
 function Catalog() {
   return (
-    <div className="catalog">
+    <section className="catalog">
       <div className="catalog-inner container">
         <h2 className="title">Лучшие зоотовары по лучшим ценам</h2>
         <div className="catalog-inner__heading">
@@ -14,7 +14,7 @@ function Catalog() {
         </div>
         <Menu />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -10,7 +10,7 @@ function Contacts() {
         zoom: 16,
       };
   return (
-    <div className="contacts">
+    <section className="contacts">
       <div className="contacts-inner container">
         <h6 className="title">Где мы находимся?</h6>
         <div className="contacts-inner__wrapper">
@@ -42,7 +42,7 @@ function Contacts() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

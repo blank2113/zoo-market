@@ -4,7 +4,7 @@ import img from '../../assets/img1.png';
 
 function TopContent() {
   return (
-    <div className='top-content'>
+    <section className='top-content'>
         <div className='top-content-inner container'>
         <div className="top-content-text">
           <h1 className="title">
@@ -22,7 +22,7 @@ function TopContent() {
             <img src={img} alt="img"/>
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 
