@@ -10,7 +10,7 @@
 .burger span{
     position: absolute;
     top: 13px;
-    width: 30px;
+    width: 25px;
     background-color: #000;
     height: 3px;
     transition: all 0.1s ease 0s;

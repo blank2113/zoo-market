@@ -36,7 +36,7 @@ function Contacts() {
           <div className="map">
             <YMaps className="ymap" style={{ width: '600px', height: '240px'}}>
               <Map defaultState={defaultState} style={{ width: '600px', height: '240px' }} className="as">
-                <Placemark geometry={[41.250029, 69.302070]} />
+                <Placemark geometry={[41.250029, 69.302070]}/>
               </Map>
             </YMaps>
           </div>

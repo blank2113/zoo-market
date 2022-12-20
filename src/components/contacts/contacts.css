@@ -38,6 +38,9 @@
 .socials img{
     width: 30px;
 }
+.ymaps-2-1-79-gototech{
+    display:none !important;
+}
 
 @media (max-width: 1200px){
     .map{

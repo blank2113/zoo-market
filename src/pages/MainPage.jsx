@@ -7,8 +7,7 @@ import Contacts from "../components/contacts/Contacts";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import TopContent from "../components/top-content/TopContent";
-import AdminPage from "./AdminPage";
-import LoginPage from "./LoginPage";
+
 import './mainPage.css';
 
 function MainPage() {
