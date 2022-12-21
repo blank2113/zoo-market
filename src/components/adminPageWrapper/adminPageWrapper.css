@@ -1,0 +1,10 @@
+.admin-page-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.block{
+    flex: 1;
+    transition: all .3s ease-in-out;
+}

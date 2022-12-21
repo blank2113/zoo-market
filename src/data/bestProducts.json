@@ -1,55 +1,73 @@
 [{
     "id":1,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":2,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img":"prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":3,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":4,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":5,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":6,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":7,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":8,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   },{
     "id":9,
-    "name": "Сухой корм",
+    "animal":"Кошки",
+    "type": "Сухой корм",
     "prevPrice":"120,000 сум",
     "currentPrice": "49,900 сум",
-    "img": "prod"
+    "img": "prod",
+    "items":[{"id":1,"name":"Pi-Pi Bent","status":"В наличии"}]
   }]

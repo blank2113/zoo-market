@@ -1,26 +1,22 @@
 import React from 'react';
-import './navigationMenu.css';
+import './headerAdmin.css';
 import logo2 from '../../assets/logo2.svg';
 
-
-
-function NavigationMenu() {
+function HeaderAdmin() {
     const date = new Date();
     const day = date.toLocaleString("ru-RU",{day:"2-digit"});
     const month = date.toLocaleString("ru-RU", {
         month: "long",
       });
       const year =date.getFullYear();
-      const hours = date.getHours();
-      const minutes = date.getMinutes();
   return (
-    <div className='navigation-menu'>
-        <div className='navigation-menu-inner container'>
-            <div className='navigation-menu-inner__logo'>
+    <div className='header-admin'>
+        <div className='header-admin-inner'>
+        <div className='header-admin-inner__logo'>
                 <img src={logo2} alt='nav-logo'/>
-                <p className='navigation-menu-inner__title'>black bee | zoomarket</p>
+                <p className='header-admin-inner__title'>black bee | zoomarket</p>
             </div>
-            <div className='navigation-menu-inner__date'>
+            <div className='header-admin-inner__date'>
                 <span>{day}</span>
                 <span>{month}</span>
                 <span>{year}</span>
@@ -30,4 +26,4 @@ function NavigationMenu() {
   )
 }
 
-export default NavigationMenu
+export default HeaderAdmin
