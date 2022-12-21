@@ -11,6 +11,8 @@ import List from "../list/List";
 
 function AdminPageWrapper() {
   const [click, setClick] = useState(1);
+  const [animal, setAnimal] = useState('');
+  // console.log(animal);
   const data = animals;
   const data2 = products;
   const data3 = bestProducts;
@@ -19,8 +21,8 @@ function AdminPageWrapper() {
     <div className="admin-page-wrapper">
       <AsideMenu click={click} setClick={setClick} />
       <div className="block">
-        {click === 1 ? <List data={data} /> : null}
-        <Table data={click === 1 ? data2 : click === 2 ? data3 : click === 3 ? data4 : null} />
+        {click === 1 ? <List data={data} animal={animal} setAnimal={setAnimal}/> : null}
+        <Table data={click === 1 ? data2 : click === 2 ? data3 : click === 3 ? data4 : null} name={click === 1 ? animal : console.log(33)} setAnimal={setAnimal}/>
       </div>
       <TopMenu />
     </div>

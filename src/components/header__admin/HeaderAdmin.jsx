@@ -2,6 +2,7 @@ import React from 'react';
 import './headerAdmin.css';
 import logo2 from '../../assets/logo2.svg';
 
+
 function HeaderAdmin() {
     const date = new Date();
     const day = date.toLocaleString("ru-RU",{day:"2-digit"});

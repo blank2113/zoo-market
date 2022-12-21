@@ -1,12 +1,12 @@
 import React from "react";
 import './list.css'
 
-function List({ data }) {
+function List({ data, animal, setAnimal }) {
   return (
     <div className="admin-list">
       <ul>
         {data.map((item) => (
-          <li>{item.name}</li>
+          <li onClick={()=> setAnimal(item.name)}>{item.name}</li>
         ))}
       </ul>
     </div>
